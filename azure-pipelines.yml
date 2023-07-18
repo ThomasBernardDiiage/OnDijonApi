@@ -1,0 +1,60 @@
+trigger:
+- dev
+
+pool:
+  vmImage: 'windows-latest'
+
+variables:
+  buildConfiguration: 'Release'
+  apiProjectFolder: '<your_api_project_folder>'
+
+steps:
+- task: DotNetCoreCLI@2
+  displayName: 'Restaurer les dépendances'
+  inputs:
+    command: 'restore'
+    projects: '**/*.csproj'
+
+- task: DotNetCoreCLI@2
+  displayName: 'Construire la solution'
+  inputs:
+    command: 'build'
+    projects: '**/*.csproj'
+    arguments: '--configuration $(buildConfiguration)'
+
+- task: DotNetCoreCLI@2
+  displayName: 'Exécuter les tests'
+  inputs:
+    command: 'test'
+    projects: '**/*Tests.csproj'
+    arguments: '--configuration $(buildConfiguration)'
+
+- task: DotNetCoreCLI@2
+  displayName: 'Générer les migrations SQL'
+  inputs:
+    command: 'ef'
+    arguments: 'migrations script --output migrations.sql --idempotent --project $(apiProjectFolder) --configuration $(buildConfiguration)'
+    workingDirectory: '$(apiProjectFolder)'
+
+- task: PublishBuildArtifacts@1
+  displayName: 'Publier les fichiers SQL des migrations'
+  inputs:
+    PathtoPublish: '$(apiProjectFolder)/migrations.sql'
+    ArtifactName: 'migrations'
+    publishLocation: 'Container'
+
+- task: DotNetCoreCLI@2
+  displayName: 'Publier l\'API'
+  inputs:
+    command: 'publish'
+    publishWebProjects: False
+    projects: '$(apiProjectFolder)/<your_project_name>.csproj'
+    arguments: '--configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)/api'
+    zipAfterPublish: True
+
+- task: PublishBuildArtifacts@1
+  displayName: 'Publier l\'artefact API'
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)/api'
+    ArtifactName: 'api'
+    publishLocation: 'Container'

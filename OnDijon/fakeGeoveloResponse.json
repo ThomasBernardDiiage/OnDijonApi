@@ -1,0 +1,765 @@
+[
+  {
+    "sections": [
+      {
+        "transportMode": "BIKE",
+        "duration": 3068,
+        "waypointsIndices": [
+          0,
+          488
+        ],
+        "geometry": "e`}eyAivcpHdHiNtDeElGmEVi@`ByJxDq^UkIoAsEgAiDoB{D]eBGqEh@gIrGao@ToIbAmJbCsFjEyX`G{o@aFmE}C{DYgD\\eEz@sFoNmNsUgSpCqMaOcM}HcHqAdCSU_MsKyMiLsOcNsIa`@kEcHiHkLYaF`DqKqKeJ{^}[yOqM~CgPt@_DgK{IkO}LyFiGeAcAwEoEeB_ApB{W~Cwc@wAOaAIeQ_DcMaDi@McLeO}Uu`@oCoEaDoCoEuD_EiDqSsPaL{K}EyGiFsIsEiLkD{JyC}I{@cDg@kDe@{L]kGe@{F]gCk@aCw@}Byk@weA_a@qr@{MeSaAyAaGkIoA_Cv@m@h@gATyA@sAMqA_@eAq@{@}@_@_A@{@`@q@|@eBkBiCuDyMeVqm@{gA{DtHk\\kn@_GiKcGwJ{FqJqW_`@cFkH}DwDaDqCsAw@_MgHuFeCqFiCwVu[|QcTun@_uA_aAitBaAuBlJkPxAiCxSm^nRk[nKoQ^m@mAaB`@_ABy@Ks@[[ul@gXcBYIGiEiDMe@w@gIbAcDb@uARsAa@aAoEkBGi@wBHeB]s@h@y_Aqc@eJwFuHcCmCsAoP{H}O}Hg\\aO_A{@_A{@iDeFmAgCkC{NlCaAIe@oCmQ[wBQsG{A{@cDyA}Ao@aEzBgJcGcPsKq[yUkAyB~C_N`@_CReDHoMBgDCwCrAyBfC{@fGQz@u@d@gAn@gCRkBOqHmCke@qDal@kAkRoD{i@Ag@CoCo@os@Wqe@}@egACwCi@uy@A}Are@eQrC_A|@YvAjBd@TbAd@h@BhAB^KlAa@|A}AbAeCd@eDAoDg@cDUg@u@}AcB{AsBe@WBDgF?iAEu`BBqHJytAIgLCeFmBkQo@{FkBqZqDo[k@kEeA{HK_A]_CaBkLGmAFqA^cAr@o@lIeFhHcDt@]d@wCs@eGwEgOkFgMiAmCta@_fAvAuDhMe\\lAeDdFaO|DkLpT}r@fAkDZaAvBoDbCaG|Ki[pNm\\lAmCpDqI`AiBbByCfE_H~CkHbA_DrA{D|EuGtBeCdGmGaBwGsNkm@{BkLx@aEz@yAd@w@_Cm[q@qEoAsB]c@q@cDy@wJ_AgMQqDJoD}Ay\\UcQ@eRtA{jASeE@aDH}CTaBL_BLaSj@qCxCkfA?aCM_Cl@kMa@qB?}HFkCjB}GdIcnAUmC|@sJl@kAnF_x@l@gJSiB`@}EPcCXi@XkBn@kLp@wIj@{CbE{MZqCPiDFk@l@kEaBiBoCwCoDaD_`@c\\wCsBuSeOmZkQoFqCuNsHar@k]??iB}@u@g@b@wCtEiWf@oCfHe`@bDaS`@cCNaAn@eDuE}BaAm@dKsj@Jo@fMzCt@_GnEcWtEyWxC_Q`AsFbDqQlBgHtA{F|EgQvD{JzDiLhCiGlEwJlJkRdB_ChCkE~Rm]bTc`@fNiVdKqRf\\an@t@sAfDwFrBsFhDwIlDaMXkAvCsR\\}AJe@]kLSIo@[s@AuC_Bia@{`@YYqCaDiCsDeS__@sNgWsIwOyIaPcI}N_DoGaFsFaE}AySyAiGc@uXiCmEMyCi@a^{Cn@sYhB{^~Boz@]}HD{B|Bwt@z@uQvBql@jBel@fB}c@l@w@tNxA~I|@nBENiGC{Ea@wG{AqFy@uB_AaCQ}J[_EIaAw@eCwBmEaB}C}AeFo@yCi@aCi@qDIkDNqJxA_l@|@yUpBgh@|@_PdBaVvAuRtF{k@`Fwf@bFo_@XkA^}@nA}@z@{A\\}I\\yAtCcGb@aBP_CC}DBkC^oDr@oE|@{Dr@gEJiFIaEDcEXmE`AsLSyEd@cKh@_K\\oO`@yKtBkZh@eHp@oEp@}DtAub@vAuNdAuOd@mFTyGKuBc@cBgDmBu@g@dA}Bx@u@xBmBTS~DwBxx@fLa@lFuBQ}GlHwBta@jBZ",
+        "estimatedDatetimeOfDeparture": "2023-05-17T15:22:29.168828",
+        "estimatedDatetimeOfArrival": "2023-05-17T16:13:37.168828",
+        "details": {
+          "distances": {
+            "total": 9697,
+            "normalRoads": 3347,
+            "recommendedRoads": 4907,
+            "discouragedRoads": 1443,
+            "cycleway": 2117,
+            "greenway": 1091,
+            "lane": 187,
+            "livingstreet": 0,
+            "sharebusway": 330,
+            "footway": 1182,
+            "pedestrian": 0,
+            "opposite": 0,
+            "steps": 0,
+            "zone30": 0,
+            "residential": 2981
+          },
+          "instructions": [
+            [
+              "direction",
+              "roadName",
+              "roadLength",
+              "facility",
+              "cyclability",
+              "geometryIndex",
+              "orientation",
+              "cityNames",
+              "duration"
+            ],
+            [
+              "HEAD_ON",
+              "",
+              54,
+              "NONE",
+              3,
+              0,
+              "SE",
+              "",
+              11
+            ],
+            [
+              "TURN_SLIGHT_LEFT",
+              "voie piétonne",
+              180,
+              "FOOTWAY",
+              4,
+              3,
+              "SE",
+              "",
+              99
+            ],
+            [
+              "TURN_SLIGHT_LEFT",
+              "voie piétonne",
+              133,
+              "FOOTWAY",
+              4,
+              14,
+              "E",
+              "",
+              85
+            ],
+            [
+              "TURN_LEFT",
+              "Rue Général Giraud",
+              26,
+              "RESIDENTIAL",
+              4,
+              19,
+              "NE",
+              "",
+              7
+            ],
+            [
+              "TURN_RIGHT",
+              "Rue Général Giraud",
+              24,
+              "RESIDENTIAL",
+              4,
+              21,
+              "E",
+              "",
+              9
+            ],
+            [
+              "TURN_LEFT",
+              "Rue des Roses",
+              99,
+              "RESIDENTIAL",
+              4,
+              24,
+              "NE",
+              "",
+              28
+            ],
+            [
+              "TURN_LEFT",
+              "Rue des Roses",
+              54,
+              "RESIDENTIAL",
+              4,
+              27,
+              "NE",
+              "",
+              16
+            ],
+            [
+              "TURN_LEFT",
+              "Rue des Tulipes",
+              212,
+              "RESIDENTIAL",
+              4,
+              29,
+              "NW",
+              "",
+              56
+            ],
+            [
+              "TURN_LEFT",
+              "Rue des Tulipes",
+              127,
+              "RESIDENTIAL",
+              4,
+              39,
+              "NE",
+              "",
+              30
+            ],
+            [
+              "TURN_RIGHT",
+              "Rue de la Croix des Valendons",
+              29,
+              "RESIDENTIAL",
+              4,
+              42,
+              "E",
+              "",
+              12
+            ],
+            [
+              "TURN_LEFT",
+              "Boulevard du Maréchal de Lattre de Tassigny",
+              101,
+              "SECONDARY",
+              1,
+              44,
+              "NE",
+              "",
+              26
+            ],
+            [
+              "TURN_RIGHT",
+              "Boulevard des Valendons",
+              76,
+              "TERTIARY",
+              2,
+              50,
+              "E",
+              "",
+              24
+            ],
+            [
+              "TURN_LEFT",
+              "Rue de Léonard de Vinci",
+              547,
+              "RESIDENTIAL",
+              4,
+              52,
+              "N",
+              "",
+              126
+            ],
+            [
+              "GO_STRAIGHT",
+              "Rue du Pommard",
+              153,
+              "RESIDENTIAL",
+              4,
+              79,
+              "NE",
+              "",
+              41
+            ],
+            [
+              "ROUND_ABOUT_EXIT_3",
+              "Rue du Pommard",
+              38,
+              "RESIDENTIAL",
+              4,
+              84,
+              "SE",
+              "",
+              11
+            ],
+            [
+              "LEAVE_ROUND_ABOUT",
+              "Rue du Pommard",
+              176,
+              "RESIDENTIAL",
+              4,
+              95,
+              "NE",
+              "",
+              48
+            ],
+            [
+              "TURN_LEFT",
+              "Boulevard des Bourroches",
+              15,
+              "PRIMARY",
+              1,
+              99,
+              "NW",
+              "",
+              7
+            ],
+            [
+              "TURN_RIGHT",
+              "Rue Pierre Boisson",
+              353,
+              "RESIDENTIAL",
+              4,
+              100,
+              "NE",
+              "",
+              85
+            ],
+            [
+              "TURN_RIGHT",
+              "Rue de la Corvée",
+              42,
+              "RESIDENTIAL",
+              4,
+              113,
+              "SE",
+              "",
+              16
+            ],
+            [
+              "TURN_LEFT",
+              "Rue Eugène Bussière",
+              324,
+              "RESIDENTIAL",
+              4,
+              114,
+              "NE",
+              "",
+              81
+            ],
+            [
+              "TURN_RIGHT",
+              "Rue des Trois Forgerons",
+              172,
+              "RESIDENTIAL",
+              4,
+              117,
+              "SE",
+              "",
+              44
+            ],
+            [
+              "TURN_LEFT",
+              "piste cyclable",
+              135,
+              "CYCLEWAY",
+              5,
+              123,
+              "E",
+              "",
+              33
+            ],
+            [
+              "TURN_RIGHT",
+              "piste cyclable",
+              11,
+              "CYCLEWAY",
+              5,
+              134,
+              "SE",
+              "",
+              5
+            ],
+            [
+              "TURN_LEFT",
+              "piste cyclable",
+              36,
+              "CYCLEWAY",
+              5,
+              136,
+              "NE",
+              "",
+              9
+            ],
+            [
+              "TURN_SLIGHT_RIGHT",
+              "Avenue Jean Jaurès (M 974)",
+              342,
+              "SECONDARY",
+              1,
+              143,
+              "N",
+              "",
+              85
+            ],
+            [
+              "TURN_RIGHT",
+              "piste cyclable",
+              48,
+              "CYCLEWAY",
+              5,
+              155,
+              "SE",
+              "",
+              16
+            ],
+            [
+              "TURN_LEFT",
+              "voie piétonne",
+              20,
+              "FOOTWAY",
+              4,
+              160,
+              "NE",
+              "",
+              7
+            ],
+            [
+              "TURN_LEFT",
+              "piste cyclable",
+              11,
+              "CYCLEWAY",
+              5,
+              163,
+              "NW",
+              "",
+              3
+            ],
+            [
+              "TURN_RIGHT",
+              "piste cyclable",
+              120,
+              "CYCLEWAY",
+              5,
+              164,
+              "NE",
+              "",
+              32
+            ],
+            [
+              "TURN_RIGHT",
+              "Rue Charles Vêque",
+              61,
+              "SHAREBUSWAY",
+              3,
+              168,
+              "SE",
+              "",
+              18
+            ],
+            [
+              "TURN_RIGHT",
+              "Rue des Corroyeurs",
+              29,
+              "RESIDENTIAL",
+              4,
+              174,
+              "SE",
+              "",
+              11
+            ],
+            [
+              "TURN_LEFT",
+              "Rue des Corroyeurs",
+              208,
+              "RESIDENTIAL",
+              4,
+              177,
+              "E",
+              "",
+              50
+            ],
+            [
+              "GO_STRAIGHT",
+              "Rue Colson",
+              284,
+              "RESIDENTIAL",
+              4,
+              186,
+              "E",
+              "",
+              76
+            ],
+            [
+              "TURN_RIGHT",
+              "Rue du Chaignot",
+              84,
+              "RESIDENTIAL",
+              4,
+              194,
+              "S",
+              "",
+              21
+            ],
+            [
+              "TURN_RIGHT",
+              "Place Henri Barabant",
+              15,
+              "LANE",
+              3,
+              197,
+              "SW",
+              "",
+              7
+            ],
+            [
+              "TURN_LEFT",
+              "Place Henri Barabant",
+              44,
+              "LANE",
+              3,
+              201,
+              "SE",
+              "",
+              15
+            ],
+            [
+              "TURN_LEFT",
+              "Place Henri Barabant",
+              19,
+              "LANE",
+              3,
+              210,
+              "NE",
+              "",
+              8
+            ],
+            [
+              "TURN_RIGHT",
+              "Rue du Transvaal",
+              269,
+              "SHAREBUSWAY",
+              3,
+              214,
+              "E",
+              "",
+              69
+            ],
+            [
+              "GO_STRAIGHT",
+              "Rue du Transvaal",
+              32,
+              "LANE",
+              3,
+              221,
+              "E",
+              "",
+              7
+            ],
+            [
+              "TURN_SLIGHT_RIGHT",
+              "Place du Président Wilson",
+              77,
+              "LANE",
+              3,
+              223,
+              "E",
+              "",
+              19
+            ],
+            [
+              "GO_STRAIGHT",
+              "Rue de Longvic",
+              91,
+              "TERTIARY",
+              2,
+              226,
+              "E",
+              "",
+              29
+            ],
+            [
+              "TURN_LEFT",
+              "Rue Coupée de Longvic",
+              67,
+              "TERTIARY",
+              2,
+              237,
+              "E",
+              "",
+              21
+            ],
+            [
+              "TURN_RIGHT",
+              "Rue d'Auxonne",
+              524,
+              "SECONDARY",
+              1,
+              242,
+              "SE",
+              "",
+              132
+            ],
+            [
+              "TURN_LEFT",
+              "Boulevard de l'Université",
+              92,
+              "SECONDARY",
+              1,
+              266,
+              "NE",
+              "",
+              23
+            ],
+            [
+              "TURN_SLIGHT_RIGHT",
+              "piste cyclable",
+              800,
+              "CYCLEWAY",
+              5,
+              269,
+              "SE",
+              "",
+              219
+            ],
+            [
+              "TURN_LEFT",
+              "Boulevard Gabriel",
+              361,
+              "CYCLEWAY",
+              5,
+              318,
+              "E",
+              "",
+              123
+            ],
+            [
+              "TURN_RIGHT",
+              "Avenue Alain Savary",
+              203,
+              "SERVICE",
+              3,
+              332,
+              "E",
+              "",
+              57
+            ],
+            [
+              "TURN_RIGHT",
+              "Esplanade Érasme",
+              26,
+              "SERVICE",
+              3,
+              344,
+              "S",
+              "",
+              11
+            ],
+            [
+              "TURN_LEFT",
+              "voie verte",
+              619,
+              "GREENWAY",
+              5,
+              345,
+              "E",
+              "",
+              148
+            ],
+            [
+              "GO_STRAIGHT",
+              "Avenue Alain Savary",
+              347,
+              "GREENWAY",
+              5,
+              372,
+              "E",
+              "",
+              96
+            ],
+            [
+              "GO_STRAIGHT",
+              "Rue en Vieille Fourche",
+              200,
+              "CYCLEWAY",
+              5,
+              390,
+              "NE",
+              "",
+              52
+            ],
+            [
+              "TURN_RIGHT",
+              "piste cyclable",
+              160,
+              "CYCLEWAY",
+              5,
+              398,
+              "E",
+              "",
+              37
+            ],
+            [
+              "GO_STRAIGHT",
+              "voie piétonne",
+              65,
+              "FOOTWAY",
+              4,
+              403,
+              "E",
+              "",
+              43
+            ],
+            [
+              "GO_STRAIGHT",
+              "piste cyclable",
+              235,
+              "CYCLEWAY",
+              5,
+              404,
+              "E",
+              "",
+              62
+            ],
+            [
+              "TURN_LEFT",
+              "voie piétonne",
+              784,
+              "FOOTWAY",
+              4,
+              412,
+              "E",
+              "",
+              569
+            ],
+            [
+              "GO_STRAIGHT",
+              "voie verte",
+              125,
+              "GREENWAY",
+              5,
+              468,
+              "E",
+              "",
+              33
+            ],
+            [
+              "TURN_SHARP_RIGHT",
+              "M 107",
+              31,
+              "SECONDARY",
+              1,
+              477,
+              "SE",
+              "",
+              7
+            ],
+            [
+              "TURN_SLIGHT_RIGHT",
+              "Boulevard Jean Jaurès (M 107)",
+              104,
+              "TERTIARY",
+              2,
+              482,
+              "S",
+              "",
+              27
+            ],
+            [
+              "TURN_RIGHT",
+              "",
+              9,
+              "NONE",
+              3,
+              483,
+              "W",
+              "",
+              5
+            ],
+            [
+              "TURN_RIGHT",
+              "",
+              74,
+              "NONE",
+              3,
+              484,
+              "N",
+              "",
+              21
+            ],
+            [
+              "REACHED_YOUR_DESTINATION",
+              "",
+              0,
+              "NONE",
+              3,
+              488,
+              "N",
+              "",
+              0
+            ]
+          ],
+          "profile": "MEDIAN",
+          "direction": "Rue de Léonard de Vinci, Avenue Alain Savary",
+          "verticalGain": 52,
+          "verticalLoss": 126,
+          "calories": 248223,
+          "elevations": null,
+          "ridesets": [
+          ],
+          "averageSpeed": 15,
+          "bikeType": "TRADITIONAL"
+        },
+        "waypoints": [
+          {
+            "longitude": 5.0000000,
+            "latitude": 47.3000000,
+            "title": "Point de départ"
+          },
+          {
+            "longitude": 5.0926000,
+            "latitude": 47.3123000,
+            "title": "Emard, Cormier and Watsica"
+          }
+        ]
+      }
+    ],
+    "distances": {
+      "total": 9697,
+      "normalRoads": 3347,
+      "recommendedRoads": 4907,
+      "discouragedRoads": 1443
+    },
+    "waypoints": [
+      {
+        "longitude": 5.0000000,
+        "latitude": 47.3000000,
+        "title": "Point de départ"
+      },
+      {
+        "longitude": 5.0926000,
+        "latitude": 47.3123000,
+        "title": "Emard, Cormier and Watsica"
+      }
+    ],
+    "title": "RECOMMENDED",
+    "estimatedDatetimeOfDeparture": "2023-05-17T15:22:29.168828",
+    "estimatedDatetimeOfArrival": "2023-05-17T16:13:37.168828",
+    "duration": 3068,
+    "id": "bG9jPTQ3LjMsNS4wJmxvYz00Ny4zMTIzLDUuMDkyNiNNRURJQU4jRmFsc2UjTUVESUFOIzE1I0ZhbHNlI05vbmUjMjAyMy0wNS0xNyAxNToyMjoyOS4xNjg4MjgjVFJBRElUSU9OQUwjMCMwI1JFQ09NTUVOREVEI0ZhbHNlI0ZhbHNl"
+  }
+]

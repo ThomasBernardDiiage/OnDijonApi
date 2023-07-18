@@ -1,0 +1,66 @@
+name: 'Build and Deploy ASP.NET Core web API with EF Core migration to an Azure Web App'
+
+trigger:
+- dev
+
+pool: 
+  vmImage: ubuntu-latest
+
+
+stages:
+- stage: CI
+  jobs:
+  - job: DotnetSetup
+    displayName: 'set up .NET Core'
+    steps:
+    - task: DotNetCoreCLI@2
+      displayName: 'dotnet restore'
+      inputs:
+        command: 'restore'
+        projects: '**/*.csproj'
+    - task: DotNetCoreCLI@2
+      displayName: 'Build'
+      inputs:
+        projects: '**/*.csproj'
+        arguments: '--configuration $(BuildConfiguration)'
+
+  - job: MigrationSetup
+    displayName: 'set up EF Core migrations'
+    steps:
+    - task: DotNetCoreCLI@2
+      displayName: 'install EF Core'
+      inputs:
+        command: custom
+        custom: tool
+        arguments: 'install --global dotnet-ef'
+    - task: DotNetCoreCLI@2
+      displayName: 'Generate SQL script'
+      inputs:
+        command: custom
+        custom: ef
+        arguments: 'migrations script --output $(Build.ArtifactStagingDirectory)/migration.sql --context OnDijonDbContext --idempotent '
+        workingDirectory: OnDijon.DataAccess
+  
+  - job: Publish
+    displayName: 'publish'
+    steps:
+      - task: DotNetCoreCLI@2
+        displayName: 'dotnet publish'
+        inputs:
+          command: publish
+          arguments: '--configuration $(BuildConfiguration) --output $(build.artifactstagingdirectory)'
+      - task: PublishBuildArtifacts@1
+        displayName: 'Publish Artifact: drop'
+
+- stage: CD
+  jobs:
+  - job: Deploy
+    displayName: 'deploy'
+    steps:
+          - task: AzureRmWebAppDeployment@4
+            inputs:
+              ConnectionType: 'AzureRM'
+              azureSubscription: 'PreProd'
+              appType: 'webAppLinux'
+              WebAppName: 'preprod-di2-p5-g5'
+              packageForLinux: '$(Pipeline.Workspace)/drop/OnDijon.zip'
